@@ -15,9 +15,30 @@ sources:
        - name: sales
          identifier: raw_gz_sales
          description: informations about product sales (dates, orders id, revenue, quantity)
+         columns:
+           - name: date_date
+             description: date of purchase
+           - name: orders_id
+             description: orders id 
+           - name: products_id	
+             description: product id
+           - name: revenue
+             description: revenue from purchase
+           - name: quantity
+             description: quantity of items in purchase
        - name: product
          identifier: raw_gz_product
          description: informations about products id and price
+         columns:
+           - name: products_id
+             description: products id 
+           - name: purchase_price
+             description: purchase price
        - name: ship
          identifier: raw_gz_ship
          description: informations about products delivery (shipping fee and cost)
+         columns:
+           - name: orders_id
+             description: orders id
+           - name: shipping_fee
+             description: shipping fee

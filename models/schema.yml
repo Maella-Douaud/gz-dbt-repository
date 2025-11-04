@@ -1,0 +1,23 @@
+# schema.yml
+#Dataset: gz_raw_data
+#Tables:
+#raw_gz_sales
+#raw_gz_product
+#raw_gz_ship
+
+version: 2
+
+sources: 
+  - name: raw
+    schema: gz_raw_sales
+    description: raw data from greenweez
+    tables:
+       - name: sales
+         identifier: raw_gz_sales
+         description: informations about product sales (dates, orders id, revenue, quantity)
+       - name: product
+         identifier: raw_gz_product
+         description: informations about products id and price
+       - name: ship
+         identifier: raw_gz_ship
+         description: informations about products delivery (shipping fee and cost)

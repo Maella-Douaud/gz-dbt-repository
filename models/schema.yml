@@ -63,4 +63,78 @@ sources:
            - name: ship_cost
              description: shipping cost
 
-             
+       - name: adworks
+         identifier: raw_gz_adworks
+         description: informations about campaigns from Adworks
+         columns:
+           - name: date_date
+             description: campaign date
+           - name: paid_source
+             description: source
+           - name: campaign_key
+             description: campaign key
+           - name: campaign_name
+             description: campaign name
+           - name: ads_cost
+             description: advertising costs 
+           - name: impression
+             description: nb of impression per campaign
+           - name: click
+             description: nb of click per campaign
+
+       - name: bing
+         identifier: raw_gz_bing
+         description: informations about campaigns from Bing
+         columns:
+           - name: date_date
+             description: campaign date
+           - name: paid_source
+             description: source
+           - name: campaign_key
+             description: campaign key
+           - name: campaign_name
+             description: campaign name
+           - name: ads_cost
+             description: advertising costs 
+           - name: impression
+             description: nb of impression per campaign
+           - name: click
+             description: nb of click per campaign
+
+       - name: criteo
+         identifier: raw_gz_criteo
+         description: informations about campaigns from Criteo
+         columns:
+           - name: date_date
+             description: campaign date
+           - name: paid_source
+             description: source
+           - name: campaign_key
+             description: campaign key
+           - name: campaign_name
+             description: campaign name
+           - name: ads_cost
+             description: advertising costs 
+           - name: impression
+             description: nb of impression per campaign
+           - name: click
+             description: nb of click per campaign
+
+       - name: facebook
+         identifier: raw_gz_facebook
+         description: informations about campaigns from Facebook
+         columns:
+           - name: date_date
+             description: campaign date
+           - name: paid_source
+             description: source
+           - name: campaign_key
+             description: campaign key
+           - name: camPGN_name
+             description: campaign name
+           - name: ads_cost
+             description: advertising costs 
+           - name: impression
+             description: nb of impression per campaign
+           - name: click
+             description: nb of click per campaign
